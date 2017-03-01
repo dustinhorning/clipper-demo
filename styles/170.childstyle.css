@@ -1,0 +1,404 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+/* End Header */
+
+.fusion-secondary-menu-search {
+	margin-top:25px;
+	}
+
+.fusion-header-tagline {	
+	font-weight:700 !important	;
+	}
+
+/* End Header */
+
+
+/* 4 Boxes Home Page */
+
+#home-page-main-container {
+	margin-top:-45px;
+	margin-bottom:15px;
+	}
+
+#manor-home-headline {
+	font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:rgba(0,84,123,1.00);
+	font-size:44px;
+	font-weight:400;
+	line-height:48px;
+	text-shadow: 0px 0px 10px #ffffff;
+	-moz-text-shadow: 0px 0px 10px #ffffff;
+	-webkit-text-shadow: 0px 0px 10px #ffffff;
+	margin: 30px 30px 40px 30px;
+	}
+
+.property-loc-container {
+	max-width:541px;
+	min-height:376px;	
+	width:100%;
+	height:100%;	
+	border:1px solid rgba(255,255,255,1.00);
+	background-color:rgba(0,84,123,0.60);
+	}
+
+.property-med-image {
+	max-width:541px;
+	max-height:269px;
+	width:100%;
+	height:100%;
+	border-bottom:1px solid rgba(255,255,255,1.00);
+	}
+
+.property-info-container {
+	max-width:342px;
+	margin:20px 15px 15px 20px;
+	float:left;
+	}
+
+.property-name {
+	font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:28px;
+	color:#dec989;
+	font-weight:700;
+	}
+
+.property-address {
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	font-weight:700;
+	margin-top:5px;
+	}
+	
+#learn-more-button {
+	width:135px;
+	color:rgba(255,255,255,1.00);
+	background-color:rgba(0,84,123,1.00);
+	float:left;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	text-transform:uppercase;
+	font-size:18px;
+	vertical-align:middle;
+	padding:12px 10px 12px 10px;
+	margin:25px 20px 15px 10px;
+	transition: background-color .3s;	
+	}	
+
+#learn-more-button:hover {
+	background-color:#dec989;
+	color:rgba(0,84,123,1.00);
+	}
+
+/* end of 4 Boxes Home Page */
+
+
+/* Internal Pages */
+
+.manor-top-body {
+	margin-top:-60px;
+	}
+	
+#property-image {
+	height:400px;
+	}	
+	
+.location-info-box {
+	margin-top:1px;
+	padding:0px;
+	height:90px;
+	}
+	
+.location-sign {
+	position:relative;
+	top:-90px;
+	z-index:2000;
+	}	
+	
+.property-id {
+	padding-top:5px;
+	background-color:rgba(102,152,176,1.00);
+	width:100%;
+	}	
+	
+.main-info{
+	margin-top:25px;
+	}
+
+.property-info-box{
+	position:relative;
+	float:left;
+	max-width:1200px;
+	width:100%;
+	padding-top:35px;
+	padding-right:35px;
+	padding-bottom:15px;
+	padding-left:35px;
+	background-color:rgba(99,152,177,1.00);
+	}
+	
+.property-info-box-container{
+	max-width:600px; 
+	position:relative;	
+	float:left;
+	}
+	
+.property-title-box {
+	font-size:30px; 
+	color:rgba(222,201,137,1.00); 
+	margin-bottom:10px; 
+	max-width:600px; 
+	}
+
+.property-text-box{
+	color:rgba(256,256,256,1.00); 
+	margin-bottom:10px; 
+	max-width:600px; 
+	}	
+	
+.property-click-box{
+	position:relative;
+	float:right;	
+	max-width:200px;
+	padding-left:25px;
+	border-left:1px solid rgba(255,255,255,1.00);
+	color:rgba(255,255,255,1.00);
+	margin-top:10px;
+	}	
+	
+/* floor Plans */
+
+
+#floorplan-manor-box1{
+	max-width:780px;
+	float:left;
+	background-color:#f7f1e1;
+	padding:25px 0px 25px 25px;
+	margin-right:28px;
+	margin-top:-15px;
+	}
+
+#floorplan-manor-box2{
+	max-width:294px;
+	float:left;
+	background-color:#f7f1e1;
+	padding:25px 25px 25px 25px;
+	margin-top:-15px;
+	}
+
+#floorplan-manor-box3{
+	max-width:1100px;
+	width:100%;
+	float:left;
+	background-color:#f7f1e1;
+	padding:25px 25px 25px 25px;
+	margin-top:28px;
+	margin-bottom:15px;		
+	}
+
+.floorplan-thumb-container1{
+	float:left;
+	position:relative;
+	width:236px;
+	margin-right:15px;
+	}
+
+.floorplan-thumb-container2{
+	float:left;
+	position:relative;
+	width:236px;
+	}
+	
+.floorplan-thumb-container3{
+	float:left;
+	position:relative;
+	width:236px;
+	margin-right:23px;
+	}	
+	
+#floorplan-timson-box1{
+	max-width:1100px;
+	width:100%;
+	float:left;
+	background-color:#f7f1e1;
+	padding:25px 0px 25px 25px;
+	}
+
+#floorplan-timson-box2{
+	max-width:1100px;
+	width:100%;
+	float:left;
+	background-color:#f7f1e1;
+	padding:25px 0px 25px 25px;
+	margin-right:28px;
+	margin-top:30px;
+	}
+
+#floorplan-timson-box3{
+	max-width:1100px;
+	width:100%;
+	float:left;
+	background-color:#f7f1e1;
+	padding:25px 0px 25px 25px;
+	margin-right:28px;
+	margin-top:30px;
+	}
+
+.floorplan-thumb-container4{
+	float:left;
+	position:relative;
+	width:236px;
+	margin-right:30px;
+	}	
+
+.floorplan-thumb{
+	position:relative;
+	width:236px;
+	height:358px;
+	}
+
+.floorplan-thumb2{
+	position:relative;
+	width:236px;
+	height:464px;
+	}
+	
+.floorplan-text{
+	position:relative;
+	width:231px;
+	padding:15px 0px 0px 5px;
+	font-size:14px;
+	}	
+
+
+
+/* End floor Plans */
+
+/* Info Blocks */
+	
+.address-info {
+	margin-top:-100px !important;
+	margin-left:40px !important;
+	max-width:650px !important;
+	}
+	
+.address-info2 {
+	margin-top:-60px !important;
+	margin-left:40px !important;
+	max-width:650px !important;
+	}	
+		
+#manor-1-info {
+	margin-top:-60px !important;
+	margin-bottom:-20px !important;	
+	margin-left:40px !important;
+	max-width:650px !important;
+	}
+	
+	
+/* gallery*/
+	
+.gallery-item {
+	margin:0px !important;
+	}
+	
+#stiegel-gallery-container {
+	margin-top:-60px !important;
+	}	
+	
+#timson-gallery-container {
+	margin-top:-60px !important;
+	}	
+
+#manor-gallery-container2 {
+	margin-top:-60px !important;
+	}	
+
+	
+/* End Info Blocks */	
+	
+/* End of Internal Pages */
+
+
+
+/* Footer */
+
+#manor-footer-container {
+	max-width:1100px;
+	display:block;
+	}
+
+#manor-footer-address {
+	max-width:680px;
+	width:100%;
+	font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:rgba(0,84,123,1.00);
+	font-size:18px;
+	line-height:18px;
+	float:left;
+	margin-right:40px;
+	margin-bottom:40px;
+	}
+
+#manor-footer-social {
+	width:320px;
+	float:left;
+	position:relative;
+	margin-top:-20px;
+	}
+
+#manor-equal {
+	display:block;
+	color:rgba(0,0,0,0.00);
+/*background-image: url(https://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer_01.gif);*/
+	background-size:cover;	
+	width:63px;
+	height:61px;	
+	position: relative;
+	float:left;
+	}
+
+#manor-facebook-footer {
+	display:block;
+	color:rgba(0,0,0,0.00);	
+/*	background-image: url(https://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer_02.gif);
+	background-size:cover;*/
+	width:60px;
+	height:61px;
+	position: relative;
+	float:left;
+	}
+	
+#manor-naa {
+	display:block;
+	color:rgba(0,0,0,0.00);	
+/*	background-image: url(https://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer_03.gif);
+	background-size:cover;*/
+	width:118px;
+	height:61px;
+	position: relative;
+	float:left;
+	}
+#manor-paa {
+	display:block;
+	color:rgba(0,0,0,0.00);	
+/*background-image: url(https://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer_04.gif);
+	background-size:cover;*/
+	width:79px;
+	height:61px;	
+	position: relative;
+	float:left;
+	}		
+	
+	/* End Footer */
+
+/* form */
+.gform_wrapper { display: inline !important; }
