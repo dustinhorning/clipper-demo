@@ -72,35 +72,20 @@
               <fields>
                 <text name="homepage_title" name_friendly="Homepage Title" />
                 <!-- Squares Section -->
-                <images name="background_pattern" name_friendly="Background Pattern" list="1" />
                   <!-- Timeline text fields -->
-                  <text name="timeline_title" name_friendly="Timeline Title" />
-                  <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
-                  <text name="timeline_button_text" name_friendly="Timeline Button Text" />
-                  <internal_link name="timeline_btn_links_to" name_friendly="Timeline Button Links To" />
-                  <!-- About section fields-->
-                  <text name="about_section_title" name_friendly="About Section Title" />
-                  <images name="about_section_image" name_friendly="About Section Image" limit="1" />
-                  <wysiwyg_advanced name="about_section_copy" name_friendly="About Section Copy" />
-                  <text name="about_section_button_txt" name_friendly="About Section Button Text" />
-                  <internal_link name="about_section_btn_links_to" name_friendly="About Section Button Links To" />
+                  <text name="grid_title" name_friendly="Grid Title" />
+                  <text name="mission_section_title" name_friendly="Mission Section Title" />
+                  <wysiwyg_advanced name="mission_section_copy" name_friendly="Mission Section Copy" />
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
-                    <homepage_title><![CDATA[]]></homepage_title>
+                    <homepage_title><![CDATA[Homepage]]></homepage_title>
                     <!-- Squares Section -->
-                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/mooning.png]]></background_pattern>
                     <!-- Timeline text -->
-                    <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
-                    <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
-                    <timeline_button_text><![CDATA[Discover our services]]></timeline_button_text>
-                    <timeline_btn_links_to><![CDATA[503]]></timeline_btn_links_to>
+                    <grid_title><![CDATA[<span style="font-weight:700;">Our Properties:</span> Find The One That is Right for You]]></grid_title>
                     <!-- About section fields -->
-                    <about_section_title><![CDATA[Zesty Pet Clinic]]></about_section_title>
-                    <about_section_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></about_section_image>
-                    <about_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></about_section_copy>
-                    <about_section_button_txt><![CDATA[Learn More]]></about_section_button_txt>
-                    <about_section_btn_links_to><![CDATA[501]]></about_section_btn_links_to>
+                    <mission_section_title><![CDATA[Our Mission Statement]]></mission_section_title>
+                    <wysiwyg_advanced><![CDATA[<p>Manor Leasing & Property Management LLC is committed to providing detailed management and leasing services for real estate clients in the Lancaster and surrounding areas. We strive to satisfy our clients’ needs efficiently and thoroughly, while saving them money and increasing their property values. We accomplish this by offering superior maintenance services and excellent communication among owners, residents and vendors. We pride ourselves on creating the highest quality of life for all our tenants.</p>]]></wysiwyg_advanced>
                   </item>
               </items>
           </templateset>
