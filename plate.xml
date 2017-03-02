@@ -175,6 +175,51 @@
                   <main_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor1_med.jpg]]></main_image>
                   <sign_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/ManorSite_CountryManor1_Sign.png]]></sign_image>
                   <address><![CDATA[301-427 College Manor Ave., Millersville 17551]]></address>
+                  <body_text><![CDATA[<p>Country Manor Apartments are located in Millersville, Pennsylvania. This complex offers a very private setting, a nice quiet area that’s close to Millersville University but is not considered a college neighborhood.</p>]]></body_text>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Timson Place" path_part="timson-place" parent="properties">
+                  <page_title><![CDATA[Timson Place]]></page_title>
+                  <subtitle><![CDATA[]]></subtitle>
+                  <main_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Timson-Place_med.jpg]]></main_image>
+                  <sign_image><![CDATA[]]></sign_image>
+                  <address><![CDATA[150-232 Hampden Drive, Mountville 17554]]></address>
+                  <body_text><![CDATA[]]></body_text>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item link_title="Country Manor 2" path_part="country-manor-location-2" parent="properties">
+                  <page_title><![CDATA[Country Manor]]></page_title>
+                  <subtitle><![CDATA[Location #2]]></subtitle>
+                  <main_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor2_med.jpg]]></main_image>
+                  <sign_image><![CDATA[]]></sign_image>
+                  <address><![CDATA[320, 340, 360 College Manor Ave. & 411 N. Duke St., Millersville 17551]]></address>
+                  <body_text><![CDATA[]]></body_text>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
+                <item link_title="Country Manor 1" path_part="country-manor-location-1" parent="properties">
+                  <page_title><![CDATA[Country Manor]]></page_title>
+                  <subtitle><![CDATA[Location #1]]></subtitle>
+                  <main_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor1_med.jpg]]></main_image>
+                  <sign_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/ManorSite_CountryManor1_Sign.png]]></sign_image>
+                  <address><![CDATA[301-427 College Manor Ave., Millersville 17551]]></address>
+                  <body_text><![CDATA[<p>Country Manor Apartments are located in Millersville, Pennsylvania. This complex offers a very private setting, a nice quiet area that’s close to Millersville University but is not considered a college neighborhood.]]></body_text>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Country Manor 1" path_part="country-manor-location-1" parent="properties">
+                  <page_title><![CDATA[Country Manor]]></page_title>
+                  <subtitle><![CDATA[Location #1]]></subtitle>
+                  <main_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor1_med.jpg]]></main_image>
+                  <sign_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/ManorSite_CountryManor1_Sign.png]]></sign_image>
+                  <address><![CDATA[301-427 College Manor Ave., Millersville 17551]]></address>
+                  <body_text><![CDATA[<p>Country Manor Apartments are located in Millersville, Pennsylvania. This complex offers a very private setting, a nice quiet area that’s close to Millersville University but is not considered a college neighborhood.]]></body_text>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item link_title="Country Manor 1" path_part="country-manor-location-1" parent="properties">
+                  <page_title><![CDATA[Country Manor]]></page_title>
+                  <subtitle><![CDATA[Location #1]]></subtitle>
+                  <main_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor1_med.jpg]]></main_image>
+                  <sign_image><![CDATA[https://manorleasing.com/wp-content/themes/Avada-Child-Theme/images/ManorSite_CountryManor1_Sign.png]]></sign_image>
+                  <address><![CDATA[301-427 College Manor Ave., Millersville 17551]]></address>
                   <body_text><![CDATA[<p>Country Manor Apartments are located in Millersville, Pennsylvania. This complex offers a very private setting, a nice quiet area that’s close to Millersville University but is not considered a college neighborhood.]]></body_text>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
