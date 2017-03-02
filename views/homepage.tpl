@@ -18,7 +18,7 @@
                     <div class="fusion-column-wrapper">
                         <div class="property-loc-container">
                             <div class="property-med-image"> <a href="{{ pp.getUrl() }}">
-                                <img src="{{ pp.main_image.getImage() }}" width="100%" height="100%" alt=""></a></div>
+                                <img src="{{ pp.main_image.getImage(526,262,crop) }}" width="100%" height="100%" alt=""></a></div>
                             <div>
                                 <div class="property-info-container">
                                     <div class="property-name">{{ pp.page_title }}<span style=" font-size:15px; color:#ffffff; font-weight:400;">{{ pp.subtitle }}</span></div>
