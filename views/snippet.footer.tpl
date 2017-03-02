@@ -1,57 +1,53 @@
-<!-- Clients Aside -->
-
-
-<!-- Contact Section -->
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 basic">
-				<p>{{ contact_us.first().address_one }}</p>
-				<p>{{ contact_us.first().address_two }}</p>
-				<p>{{ contact_us.first().address_three }}</p>
-				<br>
-				<p>{{ contact_us.first().general_info_one }}</p>
-				<p>{{ contact_us.first().phone_number_one}}</p>
-				<br>
-				<p>{{ contact_us.first().general_info_two }}<p>
-				<p>{{ contact_us.first().phone_number_two }}<p>
-			</div>
-			<div class="col-lg-3 col-md-6 basic">
-				<h4>{{ contact_us.first().hours_title }}</h4>
-				{{ each hours_of_operation as hours sort by hours.sort_order}}
-				<p>{{ hours.day_of_week}} {{ if {hours.open} }}<span class="pull-right">{{hours.open}}am - {{ hours.close}}pm</span>{{ else }}<span class="pull-right">Closed</span>{{ end-if }}</p>
-				{{ end-each }}
-			</div>
-			<div class="col-lg-6 col-md-12 text-center">
-				{{ contact_us.first().google_map_embed }}
-			</div>
-		</div>
-	</div>
-</section>
-
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-
-				<span class="copyright">&copy; {{site.date(Y)}} {{clippings.footer_text}}</span>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<ul class="list-inline social-buttons">
-					{{each social_links as social}}
-					<li class="social-{{social.font_awesome_icon}}">
-						<a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
-					</li>
-					{{end-each}}
-				</ul>
-			</div>
-			<div class="col-lg-4 col-md-12">
-				<ul class="list-inline quicklinks">
-					{{ each footer_links as link sort by link.sort_order }}
-					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a></li>
-					{{ end-each }}
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+<div class="fusion-footer">					<footer class="fusion-footer-widget-area">
+	<div class="fusion-row">
+		<div class="fusion-columns fusion-columns-1 fusion-widget-area">
+			
+			<div class="fusion-column col-lg-12 col-md-12 col-sm-12"><div id="text-2" class="fusion-footer-widget-column widget widget_text">			<div class="textwidget"><div id="manor-footer-container">
+				
+				<div id="manor-footer-address">421 North Duke Street, Millersville, PA 17551 | p:&nbsp;717‑393‑3666 | f:&nbsp;717‑584‑5610</div>
+				
+				<div id="manor-footer-social">
+					
+					
+					<div id="manor-equal">
+						<img src="http://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer2_01.gif">
+					</div>
+					
+					
+					<div id="manor-facebook-footer">
+						<a href="https://www.facebook.com/Manor-Leasing-Property-Management-161075813921121/timeline/" target="_blank">
+							<img src="http://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer2_02.gif">
+						</a>
+					</div>
+					
+					
+					<div id="manor-naa">
+						<a href="https://www.facebook.com/Manor-Leasing-Property-Management-161075813921121/timeline/" target="_blank">
+							<img src="http://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer2_03.gif">
+						</a>
+					</div>
+					
+					
+					<div id="manor-paa">
+						<a href="http://www.naahq.org/" target="_blank">
+							<img src="http://manorleasing.com/wp-content/uploads/2016/11/Manner_Footer2_04.gif">
+						</a>
+					</div>
+					
+				</div>
+				
+				</div></div>
+				<div style="clear:both;"></div></div></div>
+			<div class="fusion-clearfix"></div>
+		</div> <!-- fusion-columns -->
+	</div> <!-- fusion-row -->
+	</footer> <!-- fusion-footer-area -->
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+				
+				<div class="fusion-copyright-notice"><div>Copyright Manor Leasing | All Rights Reserved | Powered by <a href="http://clipperwebdevelopment.com/" style="color:#ffffff;">Clipper Web Development</a>  </div></div><div class="fusion-social-links-footer"></div>
+			</div> <!-- fusion-fusion-copyright-area-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+</div>
