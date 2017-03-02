@@ -85,7 +85,7 @@
                     <grid_title><![CDATA[<span style="font-weight:700;">Our Properties:</span> Find The One That is Right for You]]></grid_title>
                     <!-- About section fields -->
                     <mission_section_title><![CDATA[Our Mission Statement]]></mission_section_title>
-                    <wysiwyg_advanced><![CDATA[<p>Manor Leasing & Property Management LLC is committed to providing detailed management and leasing services for real estate clients in the Lancaster and surrounding areas. We strive to satisfy our clients’ needs efficiently and thoroughly, while saving them money and increasing their property values. We accomplish this by offering superior maintenance services and excellent communication among owners, residents and vendors. We pride ourselves on creating the highest quality of life for all our tenants.</p>]]></wysiwyg_advanced>
+                    <mission_section_copy><![CDATA[<p>Manor Leasing & Property Management LLC is committed to providing detailed management and leasing services for real estate clients in the Lancaster and surrounding areas. We strive to satisfy our clients’ needs efficiently and thoroughly, while saving them money and increasing their property values. We accomplish this by offering superior maintenance services and excellent communication among owners, residents and vendors. We pride ourselves on creating the highest quality of life for all our tenants.</p>]]></mission_section_copy>
                   </item>
               </items>
           </templateset>
