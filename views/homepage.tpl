@@ -14,7 +14,7 @@
                 </div>
                 <div class="fusion-clearfix"></div>
                 {{ each property_pages as pp sort by pp.sort_order }}
-                <div class="fusion-one-half fusion-layout-column fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
+                <div class="fusion-one-half fusion-layout-column {{ if {index} % 2 = 0 }}fusion-column-last{{ end-if }} fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
                     <div class="fusion-column-wrapper">
                         <div class="property-loc-container">
                             <div class="property-med-image"> <a href="{{ pp.getUrl() }}">
@@ -30,67 +30,26 @@
                     </div>
                 </div>
                 {{ end-each }}
-                <div class="fusion-one-half fusion-layout-column fusion-column-last fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
-                    <div class="fusion-column-wrapper"><div class="property-loc-container">
-                        <div class="property-med-image"> <a href="/home/timson-place/"><img src="wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Timson-Place_med.jpg" width="100%" height="100%" alt=""></a></div>
-                        <div>
-                            <div class="property-info-container">
-                                <div class="property-name">Timson Place</div>
-                                <div class="property-address">150-232 Hampden Drive, Mountville 17554</div>
-                            </div>     
-                            <div id="learn-more-button"><a href="/home/timson-place/" style="color:#ffffff;">Learn More</a></div>     
-                        </div>
-                        </div>
-                        
-                        
-                        
-                    </div></div><div class="fusion-clearfix"></div><div class="fusion-one-half fusion-layout-column fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper"><div class="property-loc-container">
-                <div class="property-med-image"> <a href="/home/country-manor-location-2/"><img src="wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor2_med.jpg" width="100%" height="100%" alt=""></a></div>
-                <div>
-                    <div class="property-info-container">
-                        <div class="property-name">Country Manor <span style=" font-size:15px; color:#ffffff; font-weight:400;">Location #2</span></div>
-                        <div class="property-address">320, 340, 360 College Manor Ave. &amp; <br>411 N. Duke St., Millersville 17551</div>
-                    </div>     
-                    <div id="learn-more-button"><a href="/home/country-manor-location-2/" style="color:#ffffff;">Learn More</a></div>     
-                </div>
-                </div></div></div><div class="fusion-one-half fusion-layout-column fusion-column-last fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper"><div class="property-loc-container">
-                <div class="property-med-image"> <a href="/home/stiegel-manor/"><img src="wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Stiegal-Manor_med.jpg" width="100%" height="100%" alt=""></a></div>
-                <div>
-                    <div class="property-info-container">
-                        <div class="property-name">Stiegel Manor</div>
-                        <div class="property-address">100, 110 &amp; 120 Fruitville Pike, Manheim 17545</div>
-                    </div>     
-                    <div id="learn-more-button"><a href="/home/stiegel-manor/" style="color:#ffffff;">Learn More</a></div>     
-                </div>
-                </div>
-                </div></div><div class="fusion-clearfix"></div><div class="fusion-one-half fusion-layout-column fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper"><div class="property-loc-container">
-                <div class="property-med-image"> <a href="/home/stiegel-manor/"><img src="http://manorleasing.com/wp-content/uploads/2016/06/Village-Center.jpg" width="100%" height="100%" alt=""></a></div>
-                <div>
-                    <div class="property-info-container">
-                        <div class="property-name">Village Center <span style=" font-size:15px; color:#ffffff; font-weight:400;">Residential</span></div>
-                        <div class="property-address">153-173 Oakridge Drive, Mountville, PA 17554</div>
-                    </div>     
-                    <div id="learn-more-button"><a href="/home/village-center-residential/" style="color:#ffffff;">Learn More</a></div>     
-                </div>
-                </div>
-                </div></div><div class="fusion-one-half fusion-layout-column fusion-column-last fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper"><div class="property-loc-container">
-                <div class="property-med-image"> <a href="/home/village-center-commercial/"><img src="http://manorleasing.com/wp-content/uploads/2016/11/Home-page_image.jpg" width="100%" height="100%" alt=""></a></div>
-                <div>
-                    <div class="property-info-container">
-                        <div class="property-name">Village Center <span style=" font-size:15px; color:#ffffff; font-weight:400;">Commercial</span></div>
-                        <div class="property-address">111-151 Oakridge Drive, Mountville, PA 17554</div>
-                    </div>     
-                    <div id="learn-more-button"><a href="/home/village-center-commercial/" style="color:#ffffff;">Learn More</a></div>     
-                </div>
-                </div>
-                </div></div><div class="fusion-clearfix"></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-fullwidth-2  fusion-parallax-none" style="border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-left:40px;padding-right:40px;padding-top:20px;background-color:#00547b;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"><style type="text/css" scoped="scoped">.fusion-fullwidth-2 {
-                padding-left: 40px !important;
-                padding-right: 40px !important;
-            }</style><div class="fusion-row"><div class="fusion-one-full fusion-layout-column fusion-column-last fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper"><h3>{{ page.mission_section_title }}</h3>
-            <div style="color:#fff;" >
-                {{ page.mission_section_copy }}
+                <div class="fusion-clearfix"></div>
             </div>
-            </div></div><div class="fusion-clearfix"></div></div></div>
+            </div>
+            <div class="fusion-fullwidth fullwidth-box fusion-fullwidth-2  fusion-parallax-none" style="border-color:#eae9e9;border-bottom-width: 0px;border-top-width: 0px;border-bottom-style: solid;border-top-style: solid;padding-bottom:20px;padding-left:40px;padding-right:40px;padding-top:20px;background-color:#00547b;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;">
+                <style type="text/css" scoped="scoped">.fusion-fullwidth-2 {
+                        padding-left: 40px !important;
+                        padding-right: 40px !important;
+                    }</style>
+                <div class="fusion-row">
+                    <div class="fusion-one-full fusion-layout-column fusion-column-last fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
+                        <div class="fusion-column-wrapper">
+                            <h3>{{ page.mission_section_title }}</h3>
+                            <div style="color:#fff;" >
+                                {{ page.mission_section_copy }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fusion-clearfix"></div>
+                </div>
+            </div>
             </div>
         </div>
         </div>
