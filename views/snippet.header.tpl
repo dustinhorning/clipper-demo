@@ -7,8 +7,8 @@
 					<div class="fusion-logo" data-margin-top="0px" data-margin-bottom="0px" data-margin-left="0px" data-margin-right="0px">
 						<a href="http://manorleasing.com">
 							
-							<img src="http://manorleasing.com/wp-content/uploads/2015/09/Manor-Leasing_Logo.gif" width="318" height="88" alt="Manor Leasing" class="fusion-logo-1x fusion-standard-logo">
-							<img src="http://manorleasing.com/wp-content/uploads/2015/09/Manor-Leasing_Logo_Retina.gif" width="318" height="88" alt="Manor Leasing" style="width:318px; max-height: 88px; height: auto;" class="fusion-standard-logo fusion-logo-2x">
+							<img src="{{ clippings.logo.getImage(318) }}"  alt="Manor Leasing" class="fusion-logo-1x fusion-standard-logo">
+							<img src="{{ clippings.logo.getImage(318) }}" alt="Manor Leasing" style="width:318px; max-height: 88px; height: auto;" class="fusion-standard-logo fusion-logo-2x">
 							
 							<!-- mobile logo -->
 							
@@ -28,7 +28,9 @@
 			</div>
 			<div class="fusion-secondary-main-menu">
 				<div class="fusion-row">
-					<div class="fusion-main-menu"><ul id="menu-main-menu" class="fusion-menu"><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-has-children menu-item-28 fusion-dropdown-menu"><a title="Properties for Rent in Central Pennsylvania" href="http://manorleasing.com/">Properties <span class="caret"></span></a>
+					<div class="fusion-main-menu">
+						<ul id="menu-main-menu" class="fusion-menu">
+							<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-has-children menu-item-28 fusion-dropdown-menu"><a title="Properties for Rent in Central Pennsylvania" href="http://manorleasing.com/">Properties <span class="caret"></span></a>
 						<ul class="sub-menu">
 							<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87 fusion-dropdown-submenu"><a href="http://manorleasing.com/properties/country-manor-location-1/">Country Manor Location #1</a></li>
 							<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86 fusion-dropdown-submenu"><a href="http://manorleasing.com/properties/country-manor-location-2/">Country Manor Location #2</a></li>
