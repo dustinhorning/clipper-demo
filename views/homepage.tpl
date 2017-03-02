@@ -13,22 +13,23 @@
                     </div>
                 </div>
                 <div class="fusion-clearfix"></div>
-                
+                {{ each property_pages as pp sort by pp.sort_order }}
                 <div class="fusion-one-half fusion-layout-column fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
                     <div class="fusion-column-wrapper">
                         <div class="property-loc-container">
-                            <div class="property-med-image"> <a href="/home/country-manor-location-1/">
-                                <img src="wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Country-Manor1_med.jpg" width="100%" height="100%" alt=""></a></div>
+                            <div class="property-med-image"> <a href="{{ pp.getUrl() }}">
+                                <img src="{{ pp.main_image.getImage() }}" width="100%" height="100%" alt=""></a></div>
                             <div>
                                 <div class="property-info-container">
-                                    <div class="property-name">Country Manor <span style=" font-size:15px; color:#ffffff; font-weight:400;">Location #1</span></div>
-                                    <div class="property-address">301-427 College Manor Ave., Millersville 17551</div>
+                                    <div class="property-name">{{ pp.page_title }}<span style=" font-size:15px; color:#ffffff; font-weight:400;">{{ pp.subtitle }}</span></div>
+                                    <div class="property-address">{{ pp.address }}</div>
                                 </div>     
-                                <div id="learn-more-button"><a href="/home/country-manor-location-1/" style="color:#ffffff;">Learn More</a></div>     
+                                <div id="learn-more-button"><a href="{{ pp.getUrl() }}" style="color:#ffffff;">Learn More</a></div>     
                             </div>
                         </div>
                     </div>
                 </div>
+                {{ end-each }}
                 <div class="fusion-one-half fusion-layout-column fusion-column-last fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
                     <div class="fusion-column-wrapper"><div class="property-loc-container">
                         <div class="property-med-image"> <a href="/home/timson-place/"><img src="wp-content/themes/Avada-Child-Theme/images/Manor_Locations_Timson-Place_med.jpg" width="100%" height="100%" alt=""></a></div>
